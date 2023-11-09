@@ -14,12 +14,12 @@ namespace Examen{
 
         public String mostrarPromedio()
         { 
-            return "";
+            return $"Promedio utilizando el metodo calculandoPromedio sin parametros {calcularPromedio()}%";
         }
         
         public String mostrarPromedio(int nota1, int nota2, int nota3)
         { 
-            return "";
+            return $"Promedio utilizando el metodo calculandoPromedio con parametros {calcularPromedio(nota1,nota2,nota3)}%";
         }
 
         public double calcularPromedio()
